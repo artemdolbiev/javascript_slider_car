@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/png">
+  <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Auto car</title>
+</head>
+<body>
+  <div id="carousel" class="carousel">
+    <div id="slides" class="slides">
+    <div class="slide active" style="background-image:url(assets/img/audi_rs8.jpg);">
+      <h1 class="slide-title">Audi RS8</h1>
+    </div>
+    <div class="slide" style="background-image:url(assets/img/BMW_F82.jpg);">
+      <h1 class="slide-title">BMW F82</h1>
+    </div>
+    <div class="slide" style="background-image:url(assets/img/BUGATTI_Chiron.jpg);">
+      <h1 class="slide-title">Bugatti Chiron</h1>
+    </div>
+    <div class="slide" style="background-image:url(assets/img/Dodge_Challenger_SRT_Demon.jpg);">
+      <h1 class="slide-title">Dodge Challenger SRT Demon</h1>
+    </div>
+    <div class="slide" style="background-image:url(assets/img/ford_mustang.jpg);">
+      <h1 class="slide-title">Ford Mustang</h1>
+    </div>
+    <div class="slide" style="background-image:url(assets/img/mercedes_benz_sls_amg.jpg);">
+      <h1 class="slide-title">Mercedes Benz Sls Amg</h1>
+    </div>
+    </div>
+  </div>
+  <div class="controls">
+    <span id="pause" class="control-pause">
+      <i class="far fa-pause-circle"></i>
+    </span>
+    <span id="prev" class="control-prev">
+      <i class="fas fa-angle-left"></i>
+    </span>
+    <span id="next" class="control-next">
+      <i class="fas fa-angle-right"></i>
+    </span>
+  </div>
+  <ol class="indicators">
+    <li class="indicator active" data-slider-to="0"></li>
+    <li class="indicator" data-slider-to="1"></li>
+    <li class="indicator" data-slider-to="2"></li>
+    <li class="indicator" data-slider-to="3"></li>
+    <li class="indicator" data-slider-to="4"></li>
+    <li class="indicator" data-slider-to="5"></li>
+    <li class="indicator" data-slider-to="6"></li>
+  </ol>
+
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
