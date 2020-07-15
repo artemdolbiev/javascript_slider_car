@@ -101,14 +101,14 @@ body {
   -webkit-transition: opacity 0.25s ease-out;
   -o-transition: opacity 0.25s ease-out;
   transition: opacity 0.25s ease-out;
-  opacity: -1;
+  opacity: 0;
 }
 
 .control-pause:hover, .control-pause:focus {
   -webkit-transition: opacity 1s ease-in 0.2s;
   -o-transition: opacity 1s ease-in 0.2s;
   transition: opacity 1s ease-in 0.2s;
-  opacity: 1;
+  opacity: 3;
   text-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
 }
 
@@ -156,11 +156,10 @@ body {
 }
 
 .indicator {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 4px;
   margin: -40px 7.5px 0;
   border: 3px solid rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
   outline: none;
   background: none;
   background-clip: padding-box;

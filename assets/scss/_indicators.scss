@@ -16,12 +16,11 @@
 }
 
 .indicator {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 4px;
   margin: -40px 7.5px 0;
 
   border: 3px solid rgba($color-light, 0.4);
-  border-radius: 50%;
   outline: none;
   background: none;
   background-clip: padding-box;

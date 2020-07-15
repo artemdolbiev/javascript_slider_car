@@ -15,7 +15,7 @@
 
     transition: opacity 0.25s ease-out;
 
-    opacity: -1;
+    opacity: 0;
 
     @extend %control;
 
@@ -23,7 +23,7 @@
     &:focus {
       transition: opacity 1s ease-in 0.2s;
 
-      opacity: 1;
+      opacity: 3;
       text-shadow: 0 0 30px rgba($color-light, 0.2);
     }
   }
